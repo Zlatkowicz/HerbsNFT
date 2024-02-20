@@ -1,0 +1,46 @@
+header .navbar-expand-lg {
+  background-color: #14181d;
+}
+header nav a, header nav button {
+  color: #fff !important;
+}
+
+main {
+  background: rgb(5, 12, 43);
+  background: linear-gradient(90deg, rgb(5, 12, 43) 0%, rgb(44, 20, 106) 78%, rgb(6, 223, 254) 100%);
+}
+main .parallax {
+  background-image: url("../src/img/v.gif");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+@media (max-width: 750px) {
+  main .parallax {
+    height: 100vh;
+    background-position: center;
+  }
+}
+main .parallax p {
+  font-size: 18px;
+}
+@media (max-width: 850px) {
+  main .first-section {
+    width: 100%;
+    text-align: center;
+  }
+  main .first-section img {
+    width: 100%;
+    height: 100%;
+  }
+}
+main .first-section .img-container img {
+  height: 75%;
+  width: 75%;
+}
+
+/*# sourceMappingURL=styles.css.map */
