@@ -1,11 +1,11 @@
-
+@import '../base/vars';
 header {
     .navbar-expand-lg {
         background-color: #14181d;
     }
     nav {
         a, button{
-            color: #fff !important;
+            color: $color;
         }
     }
 } 
