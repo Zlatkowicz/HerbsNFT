@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="/src/sass/styles.css">
     <script src="/js/app.js"></script>
     <script src="https://kit.fontawesome.com/3ad5514782.js" crossorigin="anonymous"></script>
+    <script src="./scripts/accounts.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header class="sticky-top">
+        
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand text-light m-2" href="#"> Herbs<span class="span-tittle">NFT</span></a>
@@ -45,9 +48,12 @@
                 </div>
             </div>
         </nav>
+        <!-- Navbar -->
+
     </header>
     <main>
-        <!-- First Section (Tittle and logo) -->
+        
+        <!-- First Section (Parralax efect) -->
         <div class="container-fluid d-flex text-center parallax text-light"> 
             <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
                 <img src="./src/img/png/herbs-high-resolution-logo-red.png"  width="330px" height="300px" alt="">
@@ -61,9 +67,9 @@
                 </button>
             </div>
         </div>
-        <!-- First Section (Tittle and logo) -->
+        <!-- First Section (Parralax efect) -->
 
-        <!-- Main section --> 
+        <!-- Primary section (Description) --> 
         <section class="container-lg first-section" id="first-section">
             <div class="row row-cols-2 flex-md-row flex-column mt-5">
                 <div class="container-xxl col m-auto col-sm-6">
@@ -103,9 +109,9 @@
                 </div>
             </div>
         </section>
-        <!-- Main section -->
+        <!-- Primary section (Description) --> 
 
-        <!-- Carrousel -->
+        <!-- Cards -->
 
         <div class="container-fluid d-flex justify-content-center align-items-center" id="card-container">
             <div class="mt-5 d-flex justify-content-center align-items-center flex-wrap" id="cn">
@@ -194,9 +200,14 @@
                 </div>
             </div>
         </div>
+        <!-- Cards -->
+
     </main>
+
     <footer class="container-fluid p-4">
         <div class="row" id="container-grid">
+
+            <!-- Info col -->
             <div class="col">
                 <div class="row text-light">
                     <div class="col h5 mx-3" id="info"><i class="fa-solid fa-plus" style="color: #ffffff; margin-right: 5px;"></i>Info </div>
@@ -204,18 +215,16 @@
                 <div class="row">
                     <div class="col-sm">
                         <ul class="list-group">
-                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"> Whitepaper </li>
-                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"> Collaborate </li>
-                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"><a href="#" class="text-light link-underline-dark link-underline-opacity-0">Donate <i class="fa-solid fa-heart" style="color: #ff0000;"></i></a></li>
+                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"><a href="https://github.com/Zlatkowicz/HerbsNFT/blob/main/README.md" target="_blank" class="text-secondary link-underline-dark link-underline-opacity-0"> Whitepaper </a></li>
+                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"><a href="https://github.com/Zlatkowicz/HerbsNFT" target="_blank" class="text-secondary link-underline-dark link-underline-opacity-0"> Collaborate </a></li>
+                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"><a href="#" target="_blank" class="text-light link-underline-dark link-underline-opacity-0">Donate <i class="fa-solid fa-heart" style="color: #ff0000;"></i></a></li>
                         </ul>
                     </div>  
                 </div>
             </div>
+            <!-- Info col -->
 
-
-
-
-
+            <!-- Social Media col -->
             <div class="col-6">
                 <div class="row text-light">
                     <div class="col h5 my-2"> Follow Me </div>
@@ -228,6 +237,8 @@
                         <a href="https://twitter.com/Ialkaild" target="_blank"><i class="fa-brands fa-twitter m-2" style="color: #ea1646; width: 20px; height: 20px;"></i></a>
                     </div>
                 </div>
+
+                <!-- Copyright -->
                 <div class="row text-light">
                     <div class="col my-2">
                         <span class="text-secondary" style="font-size: 15px;">
@@ -235,13 +246,15 @@
                         </span>
                     </div>
                 </div>
+                <!-- Copyright -->
             </div>
+            <!-- Social Media col -->
 
-
-            
+            <!-- Logo col -->
             <div class="col">
                 <img src="./src/img/png/logo-color.png" width="250px" height="200px" alt="">
             </div>
+            <!-- Logo col -->
         </div>
     </footer>
 </body>

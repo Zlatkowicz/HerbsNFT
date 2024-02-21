@@ -69,6 +69,7 @@ main {
         }
     }
     .card {
+        transition: .5s;
         button {
             border: 1px solid #ea1642;
             color: #ea1642;
@@ -84,6 +85,7 @@ main {
         border: 2px solid $rose-color !important;
         cursor: pointer;
         animation: animatedBoxShadow 1s infinite alternate;
+        transform: scale(1.05);
     }
     #card-container {
         height: 100%;

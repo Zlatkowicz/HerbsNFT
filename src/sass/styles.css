@@ -69,6 +69,9 @@ main .first-section .img-container img {
   height: 75%;
   width: 75%;
 }
+main .card {
+  transition: 0.5s;
+}
 main .card button {
   border: 1px solid #ea1642;
   color: #ea1642;
@@ -83,6 +86,7 @@ main .card:hover {
   border: 2px solid #ea1646 !important;
   cursor: pointer;
   animation: animatedBoxShadow 1s infinite alternate;
+  transform: scale(1.05);
 }
 main #card-container {
   height: 100%;
