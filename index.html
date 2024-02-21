@@ -8,39 +8,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="/src/sass/styles.css">
     <script src="/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/3ad5514782.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand m-2" href="#"> Herbs<span class="span-tittle">NFT</span></a>
+                <a class="navbar-brand text-light m-2" href="#"> Herbs<span class="span-tittle">NFT</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item m-2">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item m-2">
-                            <a class="nav-link active" href="#"> NFTs </a>
+                            <a class="nav-link active text-light" href="#"> NFTs </a>
                         </li>
                         <li class="nav-item m-2 dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"> Comments </a></li>
-                            <li><a class="dropdown-item" href="#"> Info </a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#"> Social Media </a></li>
+                            <a class="nav-link dropdown-toggle active text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                        <ul class="dropdown-menu bg-dark border-0">
+                            <li><a class="dropdown-item bg-dark border-0 text-light" href="#socialMedia"> Social Media </a></li>
+                            <li><a class="dropdown-item bg-dark border-0 text-light" href="#info"> Info </a></li>
                         </ul>
                     </li>
                 </ul>
                 <nav class="navbar second-nav">
                     <form class="container-fluid justify-content-start">
-                        <button class="btn btn-outline-secondary" type="button" onclick="connectMetamask()" id="AccountArea"> Connect Wallet </button>
+                        <button class="btn btn-outline-light text-light" type="button" onclick="connectMetamask()" id="AccountArea"> Connect Wallet </button>
                     </form>
                 </nav>
                 </div>
@@ -51,56 +50,199 @@
         <!-- First Section (Tittle and logo) -->
         <div class="container-fluid d-flex text-center parallax text-light"> 
             <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
-                <img src="./Sandbox-logo.svg" width="350px" alt="">
+                <img src="./src/img/png/herbs-high-resolution-logo-red.png"  width="330px" height="300px" alt="">
                 <p class="m-3">
-                    Play together, create anything, and own virtual land. Let’s build a whole new world together.
+                    Herbs NFTs, your digital destination to explore and acquire the most exclusive herbs NFTs!
                 </p>
-                <button class="btn text-light bg-primary rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
+                <button class="btn r-color rounded-pill m-3 px-5 pt-2" type="button">
+                    <a href="#first-section" class="text-light link-underline-dark link-underline-opacity-0">
+                        Discover
+                    </a>  
+                </button>
             </div>
         </div>
         <!-- First Section (Tittle and logo) -->
 
         <!-- Main section --> 
-        <section class="container-lg first-section">
-            <div class="row row-cols-2 flex-md-row flex-column my-5">
+        <section class="container-lg first-section" id="first-section">
+            <div class="row row-cols-2 flex-md-row flex-column mt-5">
                 <div class="container-xxl col m-auto col-sm-6">
-                    <span class="text-primary">
-                        Play together
+                    <span class="r-color-secondary">
+                        Digital Herbs!
                     </span>
                     <h3 class="text-light">
-                        Connect in extraordinary ways
+                        New and classic flavors
                     </h3>
                     <p class="text-light">
-                        Discover new experiences and make friends along the way. Go on epic quests, attend concerts, visit art galleries, and more. Express yourself through avatars and mingle across the metaverse in style!
+                        Explore our diverse catalog that includes everything from classic herbs to new release plants with unique flavors, all immortalized as NFTs for you to enjoy in the digital world. Each NFT comes with details about the history, uses, and properties of the herb, providing an educational and immersive experience for users.
                     </p>
-                    <button class="btn text-light bg-primary rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
+                    <button class="btn r-color text-light rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
                     <button class="btn text-light rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
                 </div>
                 <div class="container-sm col col-sm-6 img-container d-flex align-items-center justify-content-center">
-                    <img src="./src/img/yerba-6.png" class="rounded" alt="">
+                    <img src="./src/img/yerbas/png/yerba-sierras-del-iman.png" class="rounded" alt="">
                 </div>
             </div>
 
-            <div class="row row-cols-2 flex-md-row flex-column my-5">
-                <div class="container-sm col col-sm-6 img-container d-flex align-items-center justify-content-center">
-                    <img src="./src/img/yerba-6.png" class="rounded" alt="">
+            <div class="row row-cols-2 flex-md-row flex-column my-5" id="second_container">
+                <div class="container-sm col col-sm-6 col1 img-container d-flex align-items-center justify-content-center">
+                    <img src="./src/img/yerbas/png/yerba-paisano.png" id="paisano" class="rounded" alt="">
                 </div>
-                <div class="container-xxl col m-auto col-sm-6">
-                    <span class="text-primary">
-                        Play together
+                <div class="container-xxl col col2 m-auto col-sm-6">
+                    <span class="r-color-secondary">
+                        Share and enjoy
                     </span>
                     <h3 class="text-light">
-                        Connect in extraordinary ways
+                        There are no limits to herbs with hot water!
                     </h3>
                     <p class="text-light">
-                        Discover new experiences and make friends along the way. Go on epic quests, attend concerts, visit art galleries, and more. Express yourself through avatars and mingle across the metaverse in style!
+                        Nuestra plataforma utiliza tecnología blockchain para garantizar la autenticidad y la propiedad única de cada NFT. Al comprar una yerba NFT en Herbs, estás invirtiendo en una pieza digital única que puede ser coleccionada, intercambiada o exhibida en tu espacio virtual. Los mates se siguen compartiendo y disfrutando incluso en el mundo blockchain
                     </p>
-                    <button class="btn bg-primary rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
-                    <button class="btn rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
+                    <button class="btn r-color text-light rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
+                    <button class="btn text-light rounded-pill m-3 px-5 pt-2" type="button"> Connect Wallet </button>
                 </div>
             </div>
         </section>
         <!-- Main section -->
+
+        <!-- Carrousel -->
+
+        <div class="container-fluid d-flex justify-content-center align-items-center" id="card-container">
+            <div class="mt-5 d-flex justify-content-center align-items-center flex-wrap" id="cn">
+                <div class="d-flex m-5 border border-secondary card-content">
+                    <div class="card border-secondary" style="width: 18rem;">
+                    <img src="./src/img/yerbas/yerba-anna-park.JPG" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <button class="btn py-0"> BUY </button>
+                            <p class="card-text h6 mt-3"> DOGAMÍ - DOGA CITY </p>
+                            <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 ">  @arman__zlat </a></p>
+                            <p><i class="fa-solid fa-star" style="color: #ea1646"></i>  5.0 </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex m-5 border border-secondary card-content">
+                    <div class="card border-secondary" style="width: 18rem;">
+                    <img src="./src/img/yerbas/yerba-salus.JPG" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <button class="btn py-0"> BUY </button>
+                            <p class="card-text h6 mt-3"> DOGAMÍ - DOGA CITY </p>
+                            <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 ">  @arman__zlat </a></p>
+                            <p><i class="fa-solid fa-star" style="color: #ea1646"></i>  5.0 </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex m-5 border border-secondary card-content">
+                    <div class="card border-secondary" style="width: 18rem;">
+                    <img src="./src/img/yerbas/yerba-cuisine-&-co.JPG" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <button class="btn py-0"> BUY </button>
+                            <p class="card-text h6 mt-3"> DOGAMÍ - DOGA CITY </p>
+                            <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 ">  @arman__zlat </a></p>
+                            <p><i class="fa-solid fa-star" style="color: #ea1646"></i>  5.0 </p>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="d-flex m-5 border border-secondary card-content">
+                    <div class="card border-secondary" style="width: 18rem;">
+                    <img src="./src/img/yerbas/yerba-dona-luisa.JPG" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <button class="btn py-0"> BUY </button>
+                            <p class="card-text h6 mt-3"> DOGAMÍ - DOGA CITY </p>
+                            <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 ">  @arman__zlat </a></p>
+                            <p><i class="fa-solid fa-star" style="color: #ea1646"></i>  5.0 </p>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="d-flex m-5 border border-secondary card-content">
+                    <div class="card border-secondary" style="width: 18rem;">
+                    <img src="./src/img/yerbas/yerba-guayaki.JPG" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <button class="btn py-0"> BUY </button>
+                            <p class="card-text h6 mt-3"> DOGAMÍ - DOGA CITY </p>
+                            <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 ">  @arman__zlat </a></p>
+                            <p><i class="fa-solid fa-star" style="color: #ea1646"></i>  5.0 </p>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="d-flex m-5 border border-secondary card-content">
+                    <div class="card border-secondary" style="width: 18rem;">
+                    <img src="./src/img/yerbas/yerba-ilex-paraguines.JPG" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <button class="btn py-0"> BUY </button>
+                            <p class="card-text h6 mt-3"> DOGAMÍ - DOGA CITY </p>
+                            <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 ">  @arman__zlat </a></p>
+                            <p><i class="fa-solid fa-star" style="color: #ea1646"></i>  5.0 </p>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="d-flex m-5 border border-secondary card-content">
+                    <div class="card border-secondary" style="width: 18rem;">
+                    <img src="./src/img/yerbas/yerba-kurb.JPG" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <button class="btn py-0"> BUY </button>
+                            <p class="card-text h6 mt-3"> DOGAMÍ - DOGA CITY </p>
+                            <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 ">  @arman__zlat </a></p>
+                            <p><i class="fa-solid fa-star" style="color: #ea1646"></i>  5.0 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer class="container-fluid p-4">
+        <div class="row" id="container-grid">
+            <div class="col">
+                <div class="row text-light">
+                    <div class="col h5 mx-3" id="info"><i class="fa-solid fa-plus" style="color: #ffffff; margin-right: 5px;"></i>Info </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <ul class="list-group">
+                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"> Whitepaper </li>
+                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"> Collaborate </li>
+                            <li class="list-group-item text-secondary bg-transparent border-0" style="font-size: 15px;"><a href="#" class="text-light link-underline-dark link-underline-opacity-0">Donate <i class="fa-solid fa-heart" style="color: #ff0000;"></i></a></li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-6">
+                <div class="row text-light">
+                    <div class="col h5 my-2"> Follow Me </div>
+                </div>
+                <div class="row text-light">
+                    <div class="col my-2" id="socialMedia">
+                        <a href="https://www.instagram.com/arman__zlat/" target="_blank"><i class="fa-brands fa-instagram m-2" style="color: #ea1646; width: 20px; height: 20px;"></i></a>
+                        <a href="https://github.com/Zlatkowicz/HerbsNFT" target="_blank"><i class="fa-brands fa-github m-2" style="color: #ea1646; width: 20px; height: 20px;"></i></a>
+                        <a href="https://www.linkedin.com/in/armando-zlatkowicz/" target="_blank"><i class="fa-brands fa-linkedin m-2" style="color: #ea1646; width: 20px; height: 20px;"></i></a>
+                        <a href="https://twitter.com/Ialkaild" target="_blank"><i class="fa-brands fa-twitter m-2" style="color: #ea1646; width: 20px; height: 20px;"></i></a>
+                    </div>
+                </div>
+                <div class="row text-light">
+                    <div class="col my-2">
+                        <span class="text-secondary" style="font-size: 15px;">
+                            Copyright © 2024 HerbsNFT. All Rights Reserved.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="col">
+                <img src="./src/img/png/logo-color.png" width="250px" height="200px" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
