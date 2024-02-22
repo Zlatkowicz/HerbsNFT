@@ -31,6 +31,9 @@ main .parallax {
 main .parallax p {
   font-size: 18px;
 }
+main .first-section link:hover {
+  background: transparent;
+}
 main .first-section .row-cols-2 {
   height: 60%;
 }

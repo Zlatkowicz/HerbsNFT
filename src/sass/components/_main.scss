@@ -26,6 +26,9 @@ main {
         }
     }
     .first-section {
+        link:hover {
+            background: transparent;
+        }
         .row-cols-2 {
             height: 60%;
         }

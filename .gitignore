@@ -1,6 +1,5 @@
 node_modules/
 
-node_modules
 .env
 
 # Hardhat files
@@ -14,3 +13,5 @@ node_modules
 # solidity-coverage files
 /coverage
 /coverage.json
+
+oraculo.js 
