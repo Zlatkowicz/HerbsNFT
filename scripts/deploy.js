@@ -2,14 +2,16 @@ const hre = require("hardhat");
 
 // scripts/deploy.js
 async function main() {
+  const [deployer] = await ethers.getSigners();
+
+  
   // Obtiene la instancia del contrato a desplegar
   const Herbs = await ethers.getContractFactory("Herbs");
   
   // Despliega el contrato
   const herbs = await Herbs.deploy();
 
-  // Espera a que se complete el despliegue del contrato
-  await herbs.deployed();
+
 
   console.log("Contrato Herbs desplegado en:", herbs.address);
 }
