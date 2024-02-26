@@ -30,8 +30,6 @@ Los mates se siguen compartiendo y disfrutando incluso en el mundo blockchain, Â
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png" alt="hardhat" width="40" height="40"/> </a>
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://download.logo.wine/logo/Solidity/Solidity-Logo.wine.png" alt="solidity" width="40" height="40"/> </a>
  <a href="#" target="_blank" rel="noreferrer"> <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/webdotjs_logo_icon_249217.png" alt="web3" width="40" height="40"/> </a>
-  <a href="#" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/T/truffle-logo-2DC7EBABF2-seeklogo.com.png" alt="Truffle" width="40" height="40"/> </a>
-   <a href="#" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png" alt="Ganache" width="40" height="40"/> </a>
 
 </p>
 <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=zlatkowicz&show_icons=true&locale=en&layout=compact" alt="zlatkowicz" /></p>
