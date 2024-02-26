@@ -21,7 +21,7 @@ Los mates se siguen compartiendo y disfrutando incluso en el mundo blockchain, Â
 <p>
 <a href="https://twitter.com/ialkaild" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ialkaild" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/armando-zlatkowicz/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/armando-zlatkowicz/" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/arman__zlat/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/arman__zlat/" height="30" width="40" /></a>
+<a href="https://www.instagram.com/arman__zlat/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/arman__zlat/" height="30" width="40" /></a>
 <a href="https://medium.com/@armandozlatkowicz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@armandozlatkowicz" height="30" width="40" /></a>
 </p>
 
