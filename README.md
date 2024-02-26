@@ -21,7 +21,7 @@ Los mates se siguen compartiendo y disfrutando incluso en el mundo blockchain, Â
 <p>
 <a href="https://twitter.com/ialkaild" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ialkaild" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/armando-zlatkowicz/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/armando-zlatkowicz/" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/arman__zlat/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/arman__zlat/" height="30" width="40" /></a>
+<a href="https://www.instagram.com/arman__zlat/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/arman__zlat/" height="30" width="40" /></a>
 <a href="https://medium.com/@armandozlatkowicz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@armandozlatkowicz" height="30" width="40" /></a>
 </p>
 
@@ -30,8 +30,6 @@ Los mates se siguen compartiendo y disfrutando incluso en el mundo blockchain, Â
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png" alt="hardhat" width="40" height="40"/> </a>
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://download.logo.wine/logo/Solidity/Solidity-Logo.wine.png" alt="solidity" width="40" height="40"/> </a>
  <a href="#" target="_blank" rel="noreferrer"> <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/webdotjs_logo_icon_249217.png" alt="web3" width="40" height="40"/> </a>
-  <a href="#" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/T/truffle-logo-2DC7EBABF2-seeklogo.com.png" alt="Truffle" width="40" height="40"/> </a>
-   <a href="#" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png" alt="Ganache" width="40" height="40"/> </a>
 
 </p>
 <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=zlatkowicz&show_icons=true&locale=en&layout=compact" alt="zlatkowicz" /></p>
